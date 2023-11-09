@@ -1,0 +1,23 @@
+/snap/klee/6/usr/local/bin/klee code2.bc
+PID: 25607
+Using monotonic steady clock with 1/1000000000s resolution
+Started: 2023-11-09 06:47:42
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2023-11-09 06:47:42
+Elapsed: 00:00:00
+KLEE: done: explored paths = 5
+KLEE: done: avg. constructs per query = 19
+KLEE: done: total queries = 6
+KLEE: done: valid queries = 1
+KLEE: done: invalid queries = 5
+KLEE: done: query cex = 6
+
+KLEE: done: total instructions = 52
+KLEE: done: completed paths = 3
+KLEE: done: partially completed paths = 2
+KLEE: done: generated tests = 4
